@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/image.png</file>
+        <file>image/star.png</file>
+    </qresource>
+</RCC>

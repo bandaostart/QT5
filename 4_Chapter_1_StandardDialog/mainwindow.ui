@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>588</width>
+    <height>542</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>561</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="fileButton">
+       <property name="text">
+        <string>File</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="fileEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="colorButton">
+       <property name="text">
+        <string>Color</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QFrame" name="colorFrame">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="fontButton">
+       <property name="text">
+        <string>Font</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="fontLabel">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="inputButton">
+       <property name="text">
+        <string>Input</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="inputEdit"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="itemButton">
+       <property name="text">
+        <string>Item</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="itemEdit"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="intButton">
+       <property name="text">
+        <string>Int</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="intEdit"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="doubleButton">
+       <property name="text">
+        <string>Double</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="doubleEdit"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="questionButton">
+       <property name="text">
+        <string>Question Message</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="questionEdit"/>
+     </item>
+     <item row="8" column="0">
+      <widget class="QPushButton" name="informationButton">
+       <property name="text">
+        <string>Information Message</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="informationEdit"/>
+     </item>
+     <item row="9" column="0">
+      <widget class="QPushButton" name="warningButton">
+       <property name="text">
+        <string>Warning Message</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLineEdit" name="warningEdit"/>
+     </item>
+     <item row="10" column="0">
+      <widget class="QPushButton" name="criticalButton">
+       <property name="text">
+        <string>Critical Message</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLineEdit" name="criticalEdit"/>
+     </item>
+     <item row="11" column="0">
+      <widget class="QPushButton" name="aboutButton">
+       <property name="text">
+        <string>About Message</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QLineEdit" name="aboutEdit"/>
+     </item>
+    </layout>
+   </widget>
+   <zorder>informationButton</zorder>
+   <zorder>fileButton</zorder>
+   <zorder>fileEdit</zorder>
+   <zorder>colorFrame</zorder>
+   <zorder>colorButton</zorder>
+   <zorder>fontButton</zorder>
+   <zorder>fontLabel</zorder>
+   <zorder>inputButton</zorder>
+   <zorder>inputEdit</zorder>
+   <zorder>itemEdit</zorder>
+   <zorder>itemButton</zorder>
+   <zorder>intEdit</zorder>
+   <zorder>intButton</zorder>
+   <zorder>doubleEdit</zorder>
+   <zorder>doubleButton</zorder>
+   <zorder>questionEdit</zorder>
+   <zorder>questionButton</zorder>
+   <zorder>informationEdit</zorder>
+   <zorder>warningEdit</zorder>
+   <zorder>warningButton</zorder>
+   <zorder>criticalEdit</zorder>
+   <zorder>criticalButton</zorder>
+   <zorder>aboutEdit</zorder>
+   <zorder>aboutButton</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>588</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
