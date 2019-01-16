@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Name=23_Chapter_3_Quick
+Exec=/usr/bin/invoker --type=d -s /opt/23_Chapter_3_Quick/bin/23_Chapter_3_Quick
+Icon=/usr/share/icons/hicolor/80x80/apps/23_Chapter_3_Quick80.png
+X-Window-Icon=
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable
